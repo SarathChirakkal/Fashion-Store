@@ -15,7 +15,7 @@
     width: 80vw;
     height: 75vh;
     border: .2rem solid black;
-    border-radius: .5rem;
+    border-radius: .5rem;;
 
 }
 .close{
@@ -27,16 +27,18 @@
 }
 .content-left{
     width: 40%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .body-img{
-    height: 19.5rem;
-    width: 17rem;
+    height: 21.5rem;
+    width: 18rem;
 }
 .content{
     display: flex;
+    justify-content: space-evenly;
+
 
 }
 h2{
@@ -48,4 +50,19 @@ h2{
 }
 .size ,.about{
     border-bottom: 1px solid black;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+}
+.section-2{
+    width: 38vw;
+}
+.btn{
+    height: 2rem;
+    width: 13rem;
+    border-radius:5px;
+    margin-top: 1rem;
 }
